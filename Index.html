@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="navbar">
-          <nav>
+  <div id="header">
+    <div class="container">
+        <nav>
             <img src="images/OverCEESEDUCATION.jpg" class="logo" alt="Logo">
             <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About </a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
           </div>
-        <h1>Overcees Education</h1>
-        <p> Welcome to out website</p>
-      </div>
+          <div class="header-text">
+            <h1>Welcome to Overceeseducation Website</h1>
+            <p></p>
+        </div>
+    </div>
+</div>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -58,14 +59,61 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-  <!-- About Us -->
+  <!-- -----------------------------------------------About Us----------------------------------------- -->
   <div class="about">
-    <h1>About Us</h1>
+    <h1>About</h1>
     <p>Some text about who we are and what we do.</p>
     <p>Resize the browser window to see that this page is responsive by the way.</p>
   </div>
-  
+
+  <!---services------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>abcd</h2>
+                <p>fevnvef</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>fdfv</h2>
+                <p>fevef</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>avbcd</h2>
+                <p>grvef</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- ---------Contact------ -->
+<div id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i> OverCEESEDUCATION@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>+91 79863 41686</p>
+              <div class="social-icons">
+                  <a href="https://www.instagram.com/ratanabh.sharma/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/ratanabh-sharma-5361a41ba/"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+          </div>
+          
+          <div class="copyright">
+              <p>Copyright<i class="fa-regular fa-registered"></i> @OverCEESEDUCATION. </p>
+          </div>
+      </div>
+  </div>
+</div>
+
   
   <!-- ---------------------------------Javascript------------------------------------------- -->
 <script>
